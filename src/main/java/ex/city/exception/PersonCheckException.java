@@ -1,4 +1,4 @@
-package ex.java.city.exception;
+package ex.city.exception;
 
 public class PersonCheckException extends Exception{ // расширяет
     public PersonCheckException() {

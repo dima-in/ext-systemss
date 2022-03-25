@@ -1,4 +1,4 @@
-package ex.java.net;
+package ex.net;
 
 import java.io.*;
 import java.net.ServerSocket;

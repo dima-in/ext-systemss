@@ -1,4 +1,4 @@
-package ex.java.city.damain;
+package ex.city.damain;
 
 
 import java.time.LocalDate;

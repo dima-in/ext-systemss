@@ -1,11 +1,10 @@
-package ex.java.city.dao;
+package ex.city.dao;
 
-import ex.java.city.damain.PersonRequest;
-import ex.java.city.damain.PersonResponse;
-import ex.java.city.exception.PersonCheckException;
+import ex.city.damain.PersonRequest;
+import ex.city.damain.PersonResponse;
+import ex.city.exception.PersonCheckException;
 
 import java.sql.*;
-import java.time.LocalDate;
 
 //отправляет данные в виде структуры(student order) и принимает ответ
 public class PersonCheckDao {

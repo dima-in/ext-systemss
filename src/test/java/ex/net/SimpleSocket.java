@@ -1,4 +1,4 @@
-package ex.java.net;
+package ex.net;
 
 import org.junit.Test;
 
@@ -6,7 +6,6 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.net.Socket;
-import java.nio.charset.StandardCharsets;
 
 public class SimpleSocket {
     @Test
@@ -24,7 +23,6 @@ public class SimpleSocket {
         while ((c = inputStream.read()) != -1){ // если есть данные во входящем потоке
             System.out.print((char)c);
         }
-
         socket.close();
     }
 }
